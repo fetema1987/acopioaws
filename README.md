@@ -8,9 +8,8 @@ The repository is structured as follows:
  - /src/acopio-train.py - python file containing the dataset class.
  - /src/Train.ipynb- python file containing the train class.
 
-# AutoPicking
 
-### About
+## About
  - Date: 01/11/2020
  - Author: Fernando Tébar Martínez
 
