@@ -72,7 +72,7 @@ Loss function: Categorical cross entropy
 Evaluating and comparing the experiments is a nuclear part of the scientific work and opens the path to adjust parameters and propose changes. Using these metrics it is possible to check if the model is over/underfitting or if during the process something has failed and ultimately compare trainings
 
 #### F1 score (per class)
-This has been the metric of reference when checking how good the model was at predicting each one of the classes, specially thos with low appearances. This is a number between 0 and 1 calculated with the predicted results  from the confusion matrix.
+This has been the metric of reference when checking how good the model was at predicting each one of the classes, specially thos with low appearances. This is a number between 0 and 1 calculated with the predicted results from the confusion matrix.
 
 #### mF1
 
@@ -85,6 +85,3 @@ The model accuracy is calculated dividing the number of correct predictions by t
 #### AWS environment
 The process of training this model has been executed in a ml.m3.medium notebook instance in AWS Sagemaker. Other alternatives tried were using an XGBoost estimator from the Sagemaker SDK and similar results were obtained, almost 100% accuracy and mF1. Some of the built-in algorithms in SageMaker such as k-nn or Linear Learner with multiclass hyperparameter would also do the job.
 
-## Results
-
-In the first stages of development we got pretty good results with an accuracy of 99.59% and a mF1 of 0.9938. 
